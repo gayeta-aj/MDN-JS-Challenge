@@ -4,10 +4,17 @@ body {
   box-sizing: border-box;
   font-family: helvetica, sans-serif;
   width: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: auto;
+  height: 100vh;
 }
 
 label {
   font-weight: bold;
+  padding: 0 0 1rem;
 }
 
 div {
@@ -28,6 +35,5 @@ p {
 
 .heading {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  flex-direction: column;
 }
