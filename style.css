@@ -25,3 +25,9 @@ p {
   padding: 10px;
   visibility: hidden;
 }
+
+.heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
